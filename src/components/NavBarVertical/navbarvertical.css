@@ -1,0 +1,41 @@
+.navBarVerticalContainer{
+    background-color: #0C232F;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: calc(100vh - 60px);
+    position: relative;
+    left: -155px;
+    margin-right: -150px;
+    transition: 0.5s;
+}
+
+.navBarVerticalContainer:hover{
+    transition: 0.5s;
+    left: 0px ;
+}
+
+.navBarOptions{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.navBarOptions:hover{
+    transition: 1s;
+    background-color: #53707E;
+}
+
+.leftColumnNavBarOptions{  
+    width: 80%;
+    float: left;
+}
+
+.rigthColumnNavBarOptions{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}

@@ -1,0 +1,6 @@
+.bodyContainer{
+    display: flex;
+    background-color: #26404C;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
